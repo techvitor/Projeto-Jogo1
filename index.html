@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legendary Bird</title>
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Legendary Bird</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: grey;
+    }
+    canvas {
+      border: 1px solid #000;
+      image-rendering: pixelated;
+    }
+  </style>
 </head>
 <body>
-    <canvas id="game-canvas" width="320" height="540"></canvas>
-    <style>
-        body {
-           min-height: 100vh;
-           display: flex;
-           justify-content: center;
-           align-items: center; 
-           background-color: grey;
-        }
-        canvas {
-            border: 1px solid;
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
-
-    <script src="scripts.js"></script>
+  <canvas id="game-canvas" width="320" height="540"></canvas>
+  <script src="scripts.js"></script>
 </body>
 </html>
